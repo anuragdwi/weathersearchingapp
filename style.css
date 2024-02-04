@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background: #222;
+  font-family: "Open Sans", sans-serif;
+  background-image: url(" https://source.unsplash.com/1600x900/?rain");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+
+  font-size: 100%;
+}
+.card {
+  background: #000000d0;
+  color: #fff;
+  padding: 2.5em;
+  border-radius: 30px;
+  width: 100%;
+  max-width: 420px;
+  margin: 1em;
+}
+.search {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+button {
+  margin: 0.5em;
+  border-radius: 50%;
+  border: none;
+  height: 44px;
+  color: white;
+  background: #7c7c7c2b;
+  width: 44px;
+  cursor: pointer;
+  transition: 0.2s ease-in-out;
+}
+button:hover {
+  background-color: #7c7c7c6b;
+}
+input.search-bar {
+  border: none;
+  outline: none;
+  padding: 0.6em 2.9em;
+  border-radius: 24px;
+  background: #7c7c7c2b;
+  color: white;
+  font-family: inherit;
+  font-size: 105%;
+  width: calc(100%-100px);
+}
+h1.temp {
+  margin-top: 0.5rem;
+}
+.desc {
+  text-transform: uppercase;
+}
+.flex {
+  margin-top: 0.1rem;
+  display: flex;
+  align-items: center;
+}
